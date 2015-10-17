@@ -1,0 +1,27 @@
+{
+  "name": "namezpace",
+  "version": "0.0.0",
+  "description": "A namespacing utility for Node with a twist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zephraph/namezpace.git"
+  },
+  "keywords": [
+    "namezpace",
+    "node",
+    "namespace"
+  ],
+  "author": "zephraph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zephraph/namezpace/issues"
+  },
+  "homepage": "https://github.com/zephraph/namezpace#readme",
+  "dependencies": {
+    "extend": "^3.0.0"
+  }
+}
