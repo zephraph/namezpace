@@ -1,6 +1,6 @@
 var extend = require('extend');
 
-var Namespace = {};
+var Namespace = GLOBAL.__namezpace__ || {};
 
 function namezpace(scope, definition) {
   var item, root;
@@ -38,5 +38,7 @@ Object.defineProperty(namezpace, 'local', {
     return Namespace[__dirname];
   }
 });
+
+GLOBAL.__namezpace__ = GLOBAL.__namezpace__ || Namespace;
 
 module.exports = namezpace;
